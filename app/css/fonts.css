@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700&subset=cyrillic,cyrillic-ext,latin-ext");
+@font-face {
+  font-family: "RobotoRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Fregat";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/FregatBoldItalic/Fregat_bold_italic.eot?#iefix") format("embedded-opentype"), url("../fonts/FregatBoldItalic/Fregat_bold_italic.woff") format("woff"), url("../fonts/FregatBoldItalic/Fregat_bold_italic.ttf") format("truetype"), url("../fonts/FregatBoldItalic/Fregat_bold_italic.svg#Fregat") format("svg"); }
+
+@font-face {
+  font-family: "Appetite New";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/AppetiteNew/AppetiteNewRegular/AppetiteNewRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/AppetiteNew/AppetiteNewRegular/AppetiteNewRegular.woff") format("woff"), url("../fonts/AppetiteNew/AppetiteNewRegular/AppetiteNewRegular.ttf") format("truetype"), url("../fonts/AppetiteNew/AppetiteNewRegular/AppetiteNewRegular.svg#Appetite New") format("svg"); }
+
+@font-face {
+  font-family: "Karmina";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/Karmina/KarminaBoldItalic/Karmina.eot?#iefix") format("embedded-opentype"), url("../fonts/Karmina/KarminaBoldItalic/Karmina.woff") format("woff"), url("../fonts/Karmina/KarminaBoldItalic/Karmina.ttf") format("truetype"), url("../fonts/Karmina/KarminaBoldItalic/Karmina.svg#Karmina") format("svg"); }
+
+@font-face {
+  font-family: "Myriad Pro";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/MyriadPro/MyriadProRegular/MyriadProRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro/MyriadProRegular/MyriadProRegular.woff") format("woff"), url("../fonts/MyriadPro/MyriadProRegular/MyriadProRegular.ttf") format("truetype"), url("../fonts/MyriadPro/MyriadProRegular/MyriadProRegular.svg#Myriad Pro") format("svg"); }
+
+@font-face {
+  font-family: "Novito Nova";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/NovitoNova/NovitoNovaRegular/NovitoNova-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/NovitoNova/NovitoNovaRegular/NovitoNova-Regular.woff") format("woff"), url("../fonts/NovitoNova/NovitoNovaRegular/NovitoNova-Regular.ttf") format("truetype"), url("../fonts/NovitoNova/NovitoNovaRegular/NovitoNova-Regular.svg#Novito Nova") format("svg"); }

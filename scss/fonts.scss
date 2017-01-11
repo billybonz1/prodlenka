@@ -1,0 +1,19 @@
+@import "bourbon";
+
+@include font-face("RobotoRegular", "../fonts/RobotoRegular/RobotoRegular", $file-formats: eot woff ttf);
+
+@include font-face("Fregat", "../fonts/FregatBoldItalic/Fregat_bold_italic", 700 , italic , $file-formats: eot woff ttf svg);
+
+//font-family: 'Fira Sans'
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700&subset=cyrillic,cyrillic-ext,latin-ext');
+
+@include font-face("Appetite New", "../fonts/AppetiteNew/AppetiteNewRegular/AppetiteNewRegular", 400, $file-formats: eot woff ttf svg otf);
+
+@include font-face("Karmina", "../fonts/Karmina/KarminaBoldItalic/Karmina", 700 , italic , $file-formats: eot woff ttf svg otf);
+
+@include font-face("Myriad Pro", "../fonts/MyriadPro/MyriadProRegular/MyriadProRegular", 400 , italic , $file-formats: eot woff ttf svg otf);
+
+@include font-face("Novito Nova", "../fonts/NovitoNova/NovitoNovaRegular/NovitoNova-Regular", 400 , italic , $file-formats: eot woff ttf svg otf);
+
+
+
