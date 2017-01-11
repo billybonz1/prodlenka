@@ -72,7 +72,7 @@ header {
     font-weight: 700;
     font-size: 48px;
     margin: 0;
-    text-shadow: 3px 3px 0 #2093fe, -1px -1px 0 #2093fe, 1px -1px 0 #2093fe, -1px 1px 0 #2093fe, 1px 1px 0 #2093fe; }
+    text-shadow: 1.5px 1.5px 1px #2093fe, -1.5px -1.5px 1px #2093fe, -1.5px 1.5px 1px #2093fe, 1.5px -1.5px 1px #2093fe; }
   .header__content p {
     color: #ffffff;
     font-family: "Fira Sans";
