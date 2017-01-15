@@ -54,6 +54,40 @@
 
 <body>
 
+<div id="zapis" class="block-form mfp-hide">
+    <h4>
+        Оставьте свои данные и мы свяжемся
+        с Вами в близжайшее время
+    </h4>
+    <form>
+        <label>
+            <div class="field">
+                <p>Ваше имя</p>
+                <input type="text" name="name" required>
+            </div>
+        </label>
+        <label>
+            <div class="field">
+                <p>Ваш телефон</p>
+                <input type="text" name="phone" required>
+            </div>
+        </label>
+        <label>
+            <div class="field">
+                <p>Дополнительные пожелания</p>
+                <textarea placeholder="Напишите, пожалуйста, какие из наших&#10;
+услуг вас больше всего заинтерисовали&#10;
+или любые другие пожелания."></textarea>
+            </div>
+        </label>
+        <button class="btn-overall" name="send">ОТПРАВИТЬ!</button>
+    </form>
+</div>
+
+<div id="calendar" class="calendar-popup mfp-hide">
+    <a class="btn-overall btn-close">ДРУГИЕ МЕРОПРИЯТИЯ</a>
+</div>
+
 <header>
 	<div class="header__top">
 		<div class="inner">
@@ -69,12 +103,12 @@
 					<span></span>
 				</div>
 				<ul class="top-menu">
-					<li><a href="#">О НАС</a></li>
-					<li><a href="#">УСЛУГИ</a></li>
-					<li><a href="#">КАЛЕНДАРЬ СОБЫТИЙ</a></li>
-					<li><a href="#">ГАЛЕРЕЯ</a></li>
-					<li><a href="#">КОНТАКТЫ</a></li>
-					<li><a href="#">НОВОСТИ</a></li>
+					<li><a href="#block-about" rel='m_PageScroll2id'>О НАС</a></li>
+					<li><a href="#block-sevices" rel='m_PageScroll2id'>УСЛУГИ</a></li>
+					<li><a href="#block-calendar" rel='m_PageScroll2id'>КАЛЕНДАРЬ СОБЫТИЙ</a></li>
+					<li><a href="#block-gallery" rel='m_PageScroll2id'>ГАЛЕРЕЯ</a></li>
+					<li><a href="#block-contacts" rel='m_PageScroll2id'>КОНТАКТЫ</a></li>
+					<li><a href="#block-news" rel='m_PageScroll2id'>НОВОСТИ</a></li>
 				</ul>
 			</div>
 		</div>
@@ -85,7 +119,7 @@
 			только мало кто из них об этом помнит.
 		</h1>
 		<p>Антуан де Сент-Экзюпери”</p>
-		<a href="#" class="btn-overall">ЗАПИСАТЬСЯ!</a>
+		<a href="#zapis" class="btn-overall popup">ЗАПИСАТЬСЯ!</a>
 	</div>
 </header>
 
@@ -231,7 +265,7 @@
 		<div class="inner">
 			<h2>Календарь событий</h2>
 			<div class="calendar__content__wrap">
-				<a href="#" class="calendar__content__wrap__item calendar__content__wrap__item-dark">
+				<a href="#calendar" class="popup calendar__content__wrap__item calendar__content__wrap__item-dark">
 					<div class="calendar__content__wrap__item-day">1</div>
 					<div class="calendar__content__wrap__item-text">
 						<h6>13:30</h6>
@@ -242,7 +276,7 @@
 						<p>Научная лаборатория</p>
 					</div>
 				</a>
-				<a href="#" class="calendar__content__wrap__item calendar__content__wrap__item-light">
+				<a href="#calendar" class="popup calendar__content__wrap__item calendar__content__wrap__item-light">
 					<div class="calendar__content__wrap__item-day">2</div>
 					<div class="calendar__content__wrap__item-text">
 						<h6>13:30</h6>
@@ -253,7 +287,7 @@
 						<p>Научная лаборатория</p>
 					</div>
 				</a>
-				<a href="#" class="calendar__content__wrap__item calendar__content__wrap__item-dark">
+				<a href="#calendar" class="popup calendar__content__wrap__item calendar__content__wrap__item-dark">
 					<div class="calendar__content__wrap__item-day">3</div>
 					<div class="calendar__content__wrap__item-text">
 						<h6>13:30</h6>
@@ -264,7 +298,7 @@
 						<p>Научная лаборатория</p>
 					</div>
 				</a>
-				<a href="#" class="calendar__content__wrap__item calendar__content__wrap__item-light">
+				<a href="#calendar" class="popup calendar__content__wrap__item calendar__content__wrap__item-light">
 					<div class="calendar__content__wrap__item-day">4</div>
 					<div class="calendar__content__wrap__item-text">
 						<h6>13:30</h6>
@@ -275,7 +309,7 @@
 						<p>Научная лаборатория</p>
 					</div>
 				</a>
-				<a href="#" class="calendar__content__wrap__item calendar__content__wrap__item-dark">
+				<a href="#calendar" class="popup calendar__content__wrap__item calendar__content__wrap__item-dark">
 					<div class="calendar__content__wrap__item-day">5</div>
 					<div class="calendar__content__wrap__item-text">
 						<h6>13:30</h6>
@@ -286,7 +320,7 @@
 						<p>Научная лаборатория</p>
 					</div>
 				</a>
-				<a href="#" class="calendar__content__wrap__item calendar__content__wrap__item-light">
+				<a href="#calendar" class="popup calendar__content__wrap__item calendar__content__wrap__item-light">
 					<div class="calendar__content__wrap__item-day">6</div>
 					<div class="calendar__content__wrap__item-text">
 						<h6>13:30</h6>
@@ -297,7 +331,7 @@
 						<p>Научная лаборатория</p>
 					</div>
 				</a>
-				<a href="#" class="calendar__content__wrap__item calendar__content__wrap__item-dark">
+				<a href="#calendar" class="popup calendar__content__wrap__item calendar__content__wrap__item-dark">
 					<div class="calendar__content__wrap__item-day">7</div>
 					<div class="calendar__content__wrap__item-text">
 						<h6>13:30</h6>
@@ -309,7 +343,7 @@
 					</div>
 				</a>
 
-				<a href="#" class="calendar__content__wrap__item calendar__content__wrap__item-dark">
+				<a href="#calendar" class="popup calendar__content__wrap__item calendar__content__wrap__item-dark">
 					<div class="calendar__content__wrap__item-day">8</div>
 					<div class="calendar__content__wrap__item-text">
 						<h6>13:30</h6>
@@ -320,7 +354,7 @@
 						<p>Научная лаборатория</p>
 					</div>
 				</a>
-				<a href="#" class="calendar__content__wrap__item calendar__content__wrap__item-light">
+				<a href="#calendar" class="popup calendar__content__wrap__item calendar__content__wrap__item-light">
 					<div class="calendar__content__wrap__item-day">9</div>
 					<div class="calendar__content__wrap__item-text">
 						<h6>13:30</h6>
@@ -331,7 +365,7 @@
 						<p>Научная лаборатория</p>
 					</div>
 				</a>
-				<a href="#" class="calendar__content__wrap__item calendar__content__wrap__item-dark calendar__content__wrap__item-2">
+				<a href="#calendar" class="popup calendar__content__wrap__item calendar__content__wrap__item-dark calendar__content__wrap__item-2">
 					<div class="calendar__content__wrap__item-day">10</div>
 					<div class="calendar__content__wrap__item-text">
 						<h6>13:30</h6>
@@ -342,7 +376,7 @@
 						<p>Научная лаборатория</p>
 					</div>
 				</a>
-				<a href="#" class="calendar__content__wrap__item calendar__content__wrap__item-light calendar__content__wrap__item-2">
+				<a href="#calendar" class="popup calendar__content__wrap__item calendar__content__wrap__item-light calendar__content__wrap__item-2">
 					<div class="calendar__content__wrap__item-day">11</div>
 					<div class="calendar__content__wrap__item-text">
 						<h6>13:30</h6>
@@ -353,7 +387,7 @@
 						<p>Научная лаборатория</p>
 					</div>
 				</a>
-				<a href="#" class="calendar__content__wrap__item calendar__content__wrap__item-dark calendar__content__wrap__item-2">
+				<a href="#calendar" class="popup calendar__content__wrap__item calendar__content__wrap__item-dark calendar__content__wrap__item-2">
 					<div class="calendar__content__wrap__item-day">12</div>
 					<div class="calendar__content__wrap__item-text">
 						<h6>13:30</h6>
@@ -364,7 +398,7 @@
 						<p>Научная лаборатория</p>
 					</div>
 				</a>
-				<a href="#" class="calendar__content__wrap__item calendar__content__wrap__item-light calendar__content__wrap__item-2">
+				<a href="#calendar" class="popup calendar__content__wrap__item calendar__content__wrap__item-light calendar__content__wrap__item-2">
 					<div class="calendar__content__wrap__item-day">13</div>
 					<div class="calendar__content__wrap__item-text">
 						<h6>13:30</h6>
@@ -375,7 +409,7 @@
 						<p>Научная лаборатория</p>
 					</div>
 				</a>
-				<a href="#" class="calendar__content__wrap__item calendar__content__wrap__item-dark calendar__content__wrap__item-2">
+				<a href="#calendar" class="popup calendar__content__wrap__item calendar__content__wrap__item-dark calendar__content__wrap__item-2">
 					<div class="calendar__content__wrap__item-day">14</div>
 					<div class="calendar__content__wrap__item-text">
 						<h6>13:30</h6>
@@ -387,7 +421,7 @@
 					</div>
 				</a>
 
-				<a href="#" class="calendar__content__wrap__item calendar__content__wrap__item-dark calendar__content__wrap__item-2">
+				<a href="#calendar" class="popup calendar__content__wrap__item calendar__content__wrap__item-dark calendar__content__wrap__item-2">
 					<div class="calendar__content__wrap__item-day">15</div>
 					<div class="calendar__content__wrap__item-text">
 						<h6>13:30</h6>
@@ -398,7 +432,7 @@
 						<p>Научная лаборатория</p>
 					</div>
 				</a>
-				<a href="#" class="calendar__content__wrap__item calendar__content__wrap__item-light calendar__content__wrap__item-2">
+				<a href="#calendar" class="popup calendar__content__wrap__item calendar__content__wrap__item-light calendar__content__wrap__item-2">
 					<div class="calendar__content__wrap__item-day">16</div>
 					<div class="calendar__content__wrap__item-text">
 						<h6>13:30</h6>
@@ -409,7 +443,7 @@
 						<p>Научная лаборатория</p>
 					</div>
 				</a>
-				<a href="#" class="calendar__content__wrap__item calendar__content__wrap__item-dark calendar__content__wrap__item-2">
+				<a href="#calendar" class="popup calendar__content__wrap__item calendar__content__wrap__item-dark calendar__content__wrap__item-2">
 					<div class="calendar__content__wrap__item-day">17</div>
 					<div class="calendar__content__wrap__item-text">
 						<h6>13:30</h6>
@@ -420,7 +454,7 @@
 						<p>Научная лаборатория</p>
 					</div>
 				</a>
-				<a href="#" class="calendar__content__wrap__item calendar__content__wrap__item-light calendar__content__wrap__item-2">
+				<a href="#calendar" class="popup calendar__content__wrap__item calendar__content__wrap__item-light calendar__content__wrap__item-2">
 					<div class="calendar__content__wrap__item-day">18</div>
 					<div class="calendar__content__wrap__item-text">
 						<h6>13:30</h6>
@@ -431,7 +465,7 @@
 						<p>Научная лаборатория</p>
 					</div>
 				</a>
-				<a href="#" class="calendar__content__wrap__item calendar__content__wrap__item-dark calendar__content__wrap__item-2">
+				<a href="#calendar" class="popup calendar__content__wrap__item calendar__content__wrap__item-dark calendar__content__wrap__item-2">
 					<div class="calendar__content__wrap__item-day">19</div>
 					<div class="calendar__content__wrap__item-text">
 						<h6>13:30</h6>
@@ -442,7 +476,7 @@
 						<p>Научная лаборатория</p>
 					</div>
 				</a>
-				<a href="#" class="calendar__content__wrap__item calendar__content__wrap__item-light calendar__content__wrap__item-2">
+				<a href="#calendar" class="popup calendar__content__wrap__item calendar__content__wrap__item-light calendar__content__wrap__item-2">
 					<div class="calendar__content__wrap__item-day">20</div>
 					<div class="calendar__content__wrap__item-text">
 						<h6>13:30</h6>
@@ -453,7 +487,7 @@
 						<p>Научная лаборатория</p>
 					</div>
 				</a>
-				<a href="#" class="calendar__content__wrap__item calendar__content__wrap__item-dark calendar__content__wrap__item-2">
+				<a href="#calendar" class="popup calendar__content__wrap__item calendar__content__wrap__item-dark calendar__content__wrap__item-2">
 					<div class="calendar__content__wrap__item-day">21</div>
 					<div class="calendar__content__wrap__item-text">
 						<h6>13:30</h6>
@@ -465,7 +499,7 @@
 					</div>
 				</a>
 
-				<a href="#" class="calendar__content__wrap__item calendar__content__wrap__item-dark calendar__content__wrap__item-2">
+				<a href="#calendar" class="popup calendar__content__wrap__item calendar__content__wrap__item-dark calendar__content__wrap__item-2">
 					<div class="calendar__content__wrap__item-day">22</div>
 					<div class="calendar__content__wrap__item-text">
 						<h6>13:30</h6>
@@ -476,7 +510,7 @@
 						<p>Научная лаборатория</p>
 					</div>
 				</a>
-				<a href="#" class="calendar__content__wrap__item calendar__content__wrap__item-light calendar__content__wrap__item-2">
+				<a href="#calendar" class="popup calendar__content__wrap__item calendar__content__wrap__item-light calendar__content__wrap__item-2">
 					<div class="calendar__content__wrap__item-day">23</div>
 					<div class="calendar__content__wrap__item-text">
 						<h6>13:30</h6>
@@ -487,7 +521,7 @@
 						<p>Научная лаборатория</p>
 					</div>
 				</a>
-				<a href="#" class="calendar__content__wrap__item calendar__content__wrap__item-dark calendar__content__wrap__item-2">
+				<a href="#calendar" class="popup calendar__content__wrap__item calendar__content__wrap__item-dark calendar__content__wrap__item-2">
 					<div class="calendar__content__wrap__item-day">24</div>
 					<div class="calendar__content__wrap__item-text">
 						<h6>13:30</h6>
@@ -498,7 +532,7 @@
 						<p>Научная лаборатория</p>
 					</div>
 				</a>
-				<a href="#" class="calendar__content__wrap__item calendar__content__wrap__item-light calendar__content__wrap__item-2">
+				<a href="#calendar" class="popup calendar__content__wrap__item calendar__content__wrap__item-light calendar__content__wrap__item-2">
 					<div class="calendar__content__wrap__item-day">25</div>
 					<div class="calendar__content__wrap__item-text">
 						<h6>13:30</h6>
@@ -509,7 +543,7 @@
 						<p>Научная лаборатория</p>
 					</div>
 				</a>
-				<a href="#" class="calendar__content__wrap__item calendar__content__wrap__item-dark calendar__content__wrap__item-2">
+				<a href="#calendar" class="popup calendar__content__wrap__item calendar__content__wrap__item-dark calendar__content__wrap__item-2">
 					<div class="calendar__content__wrap__item-day">26</div>
 					<div class="calendar__content__wrap__item-text">
 						<h6>13:30</h6>
@@ -520,7 +554,7 @@
 						<p>Научная лаборатория</p>
 					</div>
 				</a>
-				<a href="#" class="calendar__content__wrap__item calendar__content__wrap__item-light calendar__content__wrap__item-2">
+				<a href="#calendar" class="popup calendar__content__wrap__item calendar__content__wrap__item-light calendar__content__wrap__item-2">
 					<div class="calendar__content__wrap__item-day">27</div>
 					<div class="calendar__content__wrap__item-text">
 						<h6>13:30</h6>
@@ -531,7 +565,7 @@
 						<p>Научная лаборатория</p>
 					</div>
 				</a>
-				<a href="#" class="calendar__content__wrap__item calendar__content__wrap__item-dark calendar__content__wrap__item-2">
+				<a href="#calendar" class="popup calendar__content__wrap__item calendar__content__wrap__item-dark calendar__content__wrap__item-2">
 					<div class="calendar__content__wrap__item-day">28</div>
 					<div class="calendar__content__wrap__item-text">
 						<h6>13:30</h6>
@@ -543,7 +577,7 @@
 					</div>
 				</a>
 
-				<a href="#" class="calendar__content__wrap__item calendar__content__wrap__item-dark calendar__content__wrap__item-2">
+				<a href="#calendar" class="popup calendar__content__wrap__item calendar__content__wrap__item-dark calendar__content__wrap__item-2">
 					<div class="calendar__content__wrap__item-day">29</div>
 					<div class="calendar__content__wrap__item-text">
 						<h6>13:30</h6>
@@ -554,7 +588,7 @@
 						<p>Научная лаборатория</p>
 					</div>
 				</a>
-				<a href="#" class="calendar__content__wrap__item calendar__content__wrap__item-light calendar__content__wrap__item-2">
+				<a href="#calendar" class="popup calendar__content__wrap__item calendar__content__wrap__item-light calendar__content__wrap__item-2">
 					<div class="calendar__content__wrap__item-day">30</div>
 					<div class="calendar__content__wrap__item-text">
 						<h6>13:30</h6>
@@ -565,7 +599,7 @@
 						<p>Научная лаборатория</p>
 					</div>
 				</a>
-				<a href="#" class="calendar__content__wrap__item calendar__content__wrap__item-dark calendar__content__wrap__item-2">
+				<a href="#calendar" class="popup calendar__content__wrap__item calendar__content__wrap__item-dark calendar__content__wrap__item-2">
 					<div class="calendar__content__wrap__item-day">31</div>
 					<div class="calendar__content__wrap__item-text">
 						<h6>13:30</h6>
@@ -585,31 +619,31 @@
     <div class="inner">
         <h2 class="white">Галерея</h2>
         <div class="gallery__content">
-            <a href="#" class="gallery__content__item">
+            <a href="img/raster/ivent.png" class="gallery__content__item">
                 <img src="img/raster/photo1.png" alt="">
             </a>
-            <a href="#" class="gallery__content__item">
+            <a href="img/raster/ivent2.jpg" class="gallery__content__item">
                 <img src="img/raster/photo2.png" alt="">
             </a>
-            <a href="#" class="gallery__content__item">
+            <a href="img/raster/ivent3.jpg" class="gallery__content__item">
                 <img src="img/raster/photo3.png" alt="">
             </a>
-            <a href="#" class="gallery__content__item">
+            <a href="img/raster/ivent4.jpg" class="gallery__content__item">
                 <img src="img/raster/photo2.png" alt="">
             </a>
-            <a href="#" class="gallery__content__item">
+            <a href="img/raster/ivent5.jpg" class="gallery__content__item">
                 <img src="img/raster/photo1.png" alt="">
             </a>
-            <a href="#" class="gallery__content__item">
+            <a href="img/raster/ivent.png" class="gallery__content__item">
                 <img src="img/raster/photo4.png" alt="">
             </a>
-            <a href="#" class="gallery__content__item">
+            <a href="img/raster/ivent7.jpg" class="gallery__content__item">
                 <img src="img/raster/photo1.png" alt="">
             </a>
-            <a href="#" class="gallery__content__item">
+            <a href="img/raster/ivent8.jpg" class="gallery__content__item">
                 <img src="img/raster/photo4.png" alt="">
             </a>
-            <a href="#" class="gallery__content__item">
+            <a href="img/raster/ivent9.jpg" class="gallery__content__item">
                 <img src="img/raster/photo5.png" alt="">
             </a>
         </div>
