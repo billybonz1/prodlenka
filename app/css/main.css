@@ -583,7 +583,8 @@
       -webkit-transform: scale(1);
       -ms-transform: scale(1);
       transform: scale(1);
-      top: 0; }
+      top: 0;
+      z-index: 2; }
     .header__top__mnu ul li {
       float: none;
       text-align: center;

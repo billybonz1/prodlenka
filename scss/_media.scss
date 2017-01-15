@@ -146,15 +146,16 @@
 			margin: 0;
 			background-color: rgba(7, 12, 8, 0.8);
             padding-top: 90px;
-            opacity: 0;
-            visibility: hidden;
-            transition: .4s all;
-            &.active{
-              opacity: 1;
-              visibility: visible;
-              transform: scale(1);
-              top: 0;
-            }
+			opacity: 0;
+			visibility: hidden;
+			transition: .4s all;
+			&.active {
+				opacity: 1;
+				visibility: visible;
+				transform: scale(1);
+				top: 0;
+				z-index: 2;
+			}
 			li{
 				float: none;
 				text-align: center;
